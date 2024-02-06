@@ -250,6 +250,8 @@ public class Action extends BaseClass {
 	}
 
 	public static void verifyTopThreeSearchResults(String locator, String expectedSearch) throws Exception {
+		Thread.sleep(2000);
+
 		// Find all search result links
 		List<WebElement> searchTopResults = driver.findElements(By.xpath(locator));
 

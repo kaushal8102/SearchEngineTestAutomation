@@ -3,33 +3,17 @@
 <suite name="Failed suite [Search Engine Test Automation]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Search Engine Test Automation(failed)">
     <classes>
-      <class name="com.seta.testcases.GoogleSearchTests">
+      <class name="com.seta.testcases.BingSearchTests">
         <methods>
           <include name="afterSuite"/>
-          <include name="beforeMethod"/>
           <include name="tearDown"/>
+          <include name="beforeMethod"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
           <include name="setup"/>
-          <include name="verifyGoogleSearchWithBadTermTest"/>
+          <include name="verifyBingSearchWithAlphaNumericCharTermTest"/>
         </methods>
-      </class> <!-- com.seta.testcases.GoogleSearchTests -->
-      <class name="com.seta.testcases.YahooSearchTests">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="afterMethod"/>
-          <include name="verifyYahooSearchFirstLinkTest"/>
-          <include name="verifyYahooSearchWithSpecialCharTermTest"/>
-          <include name="tearDown"/>
-          <include name="beforeMethod"/>
-          <include name="verifyYahooSearchWithBadTermTest"/>
-          <include name="beforeSuite"/>
-          <include name="verifyYahooSearchTopThreeTermResultsTest"/>
-          <include name="verifyYahooSearchWithMisSpelledCorrectionTermTest"/>
-          <include name="setup"/>
-          <include name="verifyYahooSearchWithAlphaNumericCharTermTest"/>
-        </methods>
-      </class> <!-- com.seta.testcases.YahooSearchTests -->
+      </class> <!-- com.seta.testcases.BingSearchTests -->
     </classes>
   </test> <!-- Search Engine Test Automation(failed) -->
 </suite> <!-- Failed suite [Search Engine Test Automation] -->

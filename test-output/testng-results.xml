@@ -2,24 +2,28 @@
 <testng-results ignored="4" total="21" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T12:37:24 CST" name="Search Engine Test Automation" finished-at="2024-02-06T12:39:15 CST" duration-ms="111258">
+  <suite started-at="2024-02-06T12:49:15 CST" name="Search Engine Test Automation" finished-at="2024-02-06T12:50:52 CST" duration-ms="97098">
     <groups>
     </groups>
-    <test started-at="2024-02-06T12:37:24 CST" name="Search Engine Test Automation" finished-at="2024-02-06T12:39:15 CST" duration-ms="111258">
+    <test started-at="2024-02-06T12:49:15 CST" name="Search Engine Test Automation" finished-at="2024-02-06T12:50:52 CST" duration-ms="97098">
       <class name="com.seta.testcases.BingSearchTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:38:55 CST" name="setup" finished-at="2024-02-06T12:38:56 CST" duration-ms="1189" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:30 CST" name="setup" finished-at="2024-02-06T12:50:32 CST" duration-ms="1142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:38:56 CST" name="beforeMethod" finished-at="2024-02-06T12:38:57 CST" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:32 CST" name="beforeMethod" finished-at="2024-02-06T12:50:32 CST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBingSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:38:57 CST" name="verifyBingSearchFirstLinkTest" finished-at="2024-02-06T12:39:01 CST" duration-ms="3878" status="PASS">
+        <test-method signature="verifyBingSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:32 CST" name="verifyBingSearchFirstLinkTest" finished-at="2024-02-06T12:50:36 CST" duration-ms="3743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBingSearchFirstLinkTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:01 CST" name="afterMethod" finished-at="2024-02-06T12:39:01 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:36 CST" name="beforeMethod" finished-at="2024-02-06T12:50:36 CST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:36 CST" name="afterMethod" finished-at="2024-02-06T12:50:36 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:01 CST" name="beforeMethod" finished-at="2024-02-06T12:39:01 CST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBingSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:01 CST" name="verifyBingSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:39:04 CST" duration-ms="3776" status="PASS">
+        <test-method signature="verifyBingSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:36 CST" name="verifyBingSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:50:40 CST" duration-ms="3960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBingSearchWithAlphaNumericCharTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:04 CST" name="afterMethod" finished-at="2024-02-06T12:39:04 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:40 CST" name="beforeMethod" finished-at="2024-02-06T12:50:40 CST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:40 CST" name="afterMethod" finished-at="2024-02-06T12:50:40 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,15 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:04 CST" name="beforeMethod" finished-at="2024-02-06T12:39:05 CST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBingSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:05 CST" name="verifyBingSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:39:09 CST" duration-ms="4043" status="PASS">
+        <test-method signature="verifyBingSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:40 CST" name="verifyBingSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:50:44 CST" duration-ms="3797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBingSearchWithMisSpelledCorrectionTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:09 CST" name="afterMethod" finished-at="2024-02-06T12:39:09 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:44 CST" name="afterMethod" finished-at="2024-02-06T12:50:44 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,19 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:09 CST" name="beforeMethod" finished-at="2024-02-06T12:39:09 CST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:44 CST" name="beforeMethod" finished-at="2024-02-06T12:50:44 CST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBingSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:09 CST" name="verifyBingSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:39:13 CST" duration-ms="4133" status="PASS">
+        <test-method signature="verifyBingSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:44 CST" name="verifyBingSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:50:48 CST" duration-ms="4111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBingSearchWithSpecialCharTermTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:13 CST" name="beforeMethod" finished-at="2024-02-06T12:39:13 CST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:13 CST" name="afterMethod" finished-at="2024-02-06T12:39:13 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:48 CST" name="afterMethod" finished-at="2024-02-06T12:50:48 CST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,11 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyBingTopThreeTermSearchResultsTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:13 CST" name="verifyBingTopThreeTermSearchResultsTest" finished-at="2024-02-06T12:39:15 CST" duration-ms="1911" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:48 CST" name="beforeMethod" finished-at="2024-02-06T12:50:48 CST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyBingTopThreeTermSearchResultsTest()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:48 CST" name="verifyBingTopThreeTermSearchResultsTest" finished-at="2024-02-06T12:50:52 CST" duration-ms="3927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBingTopThreeTermSearchResultsTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:15 CST" name="afterMethod" finished-at="2024-02-06T12:39:15 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:52 CST" name="afterMethod" finished-at="2024-02-06T12:50:52 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,29 +106,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:39:15 CST" name="tearDown" finished-at="2024-02-06T12:39:15 CST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.BingSearchTests@41fbdac4]" started-at="2024-02-06T12:50:52 CST" name="tearDown" finished-at="2024-02-06T12:50:52 CST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.seta.testcases.BingSearchTests -->
       <class name="com.seta.testcases.GoogleSearchTests">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:24 CST" name="beforeSuite" finished-at="2024-02-06T12:37:24 CST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:15 CST" name="beforeSuite" finished-at="2024-02-06T12:49:15 CST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:24 CST" name="setup" finished-at="2024-02-06T12:37:25 CST" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:15 CST" name="setup" finished-at="2024-02-06T12:49:16 CST" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:25 CST" name="beforeMethod" finished-at="2024-02-06T12:37:27 CST" duration-ms="1100" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:16 CST" name="beforeMethod" finished-at="2024-02-06T12:49:17 CST" duration-ms="1034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyGoogleSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:27 CST" name="verifyGoogleSearchFirstLinkTest" finished-at="2024-02-06T12:37:34 CST" duration-ms="7023" status="PASS">
+        <test-method signature="verifyGoogleSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:17 CST" name="verifyGoogleSearchFirstLinkTest" finished-at="2024-02-06T12:49:24 CST" duration-ms="6190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchFirstLinkTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:34 CST" name="afterMethod" finished-at="2024-02-06T12:37:34 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:24 CST" name="afterMethod" finished-at="2024-02-06T12:49:24 CST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,19 +139,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:34 CST" name="beforeMethod" finished-at="2024-02-06T12:37:34 CST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:24 CST" name="beforeMethod" finished-at="2024-02-06T12:49:24 CST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyGoogleSearchTopThreeTermResultsTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:34 CST" name="verifyGoogleSearchTopThreeTermResultsTest" finished-at="2024-02-06T12:37:37 CST" duration-ms="2956" status="PASS">
+        <test-method signature="verifyGoogleSearchTopThreeTermResultsTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:24 CST" name="verifyGoogleSearchTopThreeTermResultsTest" finished-at="2024-02-06T12:49:28 CST" duration-ms="4432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchTopThreeTermResultsTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:37 CST" name="beforeMethod" finished-at="2024-02-06T12:37:37 CST" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:37 CST" name="afterMethod" finished-at="2024-02-06T12:37:37 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:28 CST" name="afterMethod" finished-at="2024-02-06T12:49:28 CST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,11 +158,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyGoogleSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:37 CST" name="verifyGoogleSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:37:43 CST" duration-ms="5362" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:28 CST" name="beforeMethod" finished-at="2024-02-06T12:49:29 CST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGoogleSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:29 CST" name="verifyGoogleSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:49:33 CST" duration-ms="4226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchWithAlphaNumericCharTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:43 CST" name="afterMethod" finished-at="2024-02-06T12:37:43 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:33 CST" name="beforeMethod" finished-at="2024-02-06T12:49:33 CST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:33 CST" name="afterMethod" finished-at="2024-02-06T12:49:33 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,15 +181,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:43 CST" name="beforeMethod" finished-at="2024-02-06T12:37:43 CST" duration-ms="405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyGoogleSearchWithBadTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:43 CST" name="verifyGoogleSearchWithBadTermTest" finished-at="2024-02-06T12:37:47 CST" duration-ms="3536" status="PASS">
+        <test-method signature="verifyGoogleSearchWithBadTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:33 CST" name="verifyGoogleSearchWithBadTermTest" finished-at="2024-02-06T12:49:37 CST" duration-ms="3991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchWithBadTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:47 CST" name="afterMethod" finished-at="2024-02-06T12:37:47 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:37 CST" name="afterMethod" finished-at="2024-02-06T12:49:37 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,15 +196,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:47 CST" name="beforeMethod" finished-at="2024-02-06T12:37:47 CST" duration-ms="563" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:37 CST" name="beforeMethod" finished-at="2024-02-06T12:49:38 CST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyGoogleSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:47 CST" name="verifyGoogleSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:37:55 CST" duration-ms="8193" status="PASS">
+        <test-method signature="verifyGoogleSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:38 CST" name="verifyGoogleSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:49:42 CST" duration-ms="4328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchWithMisSpelledCorrectionTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:55 CST" name="afterMethod" finished-at="2024-02-06T12:37:55 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:42 CST" name="afterMethod" finished-at="2024-02-06T12:49:42 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,19 +215,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:55 CST" name="beforeMethod" finished-at="2024-02-06T12:37:56 CST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:42 CST" name="beforeMethod" finished-at="2024-02-06T12:49:42 CST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyGoogleSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:37:56 CST" name="verifyGoogleSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:38:01 CST" duration-ms="5781" status="PASS">
+        <test-method signature="verifyGoogleSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:42 CST" name="verifyGoogleSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:49:47 CST" duration-ms="5134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearchWithSpecialCharTermTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:38:01 CST" name="tearDown" finished-at="2024-02-06T12:38:02 CST" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:38:01 CST" name="afterMethod" finished-at="2024-02-06T12:38:01 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:47 CST" name="afterMethod" finished-at="2024-02-06T12:49:47 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,25 +234,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:39:20 CST" name="afterSuite" finished-at="2024-02-06T12:39:20 CST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:49:47 CST" name="tearDown" finished-at="2024-02-06T12:49:48 CST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.seta.testcases.GoogleSearchTests@3daa422a]" started-at="2024-02-06T12:50:57 CST" name="afterSuite" finished-at="2024-02-06T12:50:57 CST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.seta.testcases.GoogleSearchTests -->
       <class name="com.seta.testcases.YahooSearchTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:02 CST" name="setup" finished-at="2024-02-06T12:38:03 CST" duration-ms="1078" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:49:48 CST" name="setup" finished-at="2024-02-06T12:49:49 CST" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:03 CST" name="beforeMethod" finished-at="2024-02-06T12:38:10 CST" duration-ms="7355" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:49:49 CST" name="beforeMethod" finished-at="2024-02-06T12:49:55 CST" duration-ms="6197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:10 CST" name="verifyYahooSearchFirstLinkTest" finished-at="2024-02-06T12:38:15 CST" duration-ms="5213" status="PASS">
+        <test-method signature="verifyYahooSearchFirstLinkTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:49:55 CST" name="verifyYahooSearchFirstLinkTest" finished-at="2024-02-06T12:50:00 CST" duration-ms="5261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchFirstLinkTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:15 CST" name="afterMethod" finished-at="2024-02-06T12:38:15 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:00 CST" name="afterMethod" finished-at="2024-02-06T12:50:00 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,15 +267,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:15 CST" name="beforeMethod" finished-at="2024-02-06T12:38:19 CST" duration-ms="3721" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:00 CST" name="beforeMethod" finished-at="2024-02-06T12:50:01 CST" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchTopThreeTermResultsTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:19 CST" name="verifyYahooSearchTopThreeTermResultsTest" finished-at="2024-02-06T12:38:22 CST" duration-ms="3127" status="PASS">
+        <test-method signature="verifyYahooSearchTopThreeTermResultsTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:01 CST" name="verifyYahooSearchTopThreeTermResultsTest" finished-at="2024-02-06T12:50:06 CST" duration-ms="5142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchTopThreeTermResultsTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:22 CST" name="afterMethod" finished-at="2024-02-06T12:38:22 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:06 CST" name="beforeMethod" finished-at="2024-02-06T12:50:07 CST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:06 CST" name="afterMethod" finished-at="2024-02-06T12:50:06 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,15 +290,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:22 CST" name="beforeMethod" finished-at="2024-02-06T12:38:24 CST" duration-ms="1811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:24 CST" name="verifyYahooSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:38:30 CST" duration-ms="5901" status="PASS">
+        <test-method signature="verifyYahooSearchWithAlphaNumericCharTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:07 CST" name="verifyYahooSearchWithAlphaNumericCharTermTest" finished-at="2024-02-06T12:50:13 CST" duration-ms="5160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchWithAlphaNumericCharTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:30 CST" name="afterMethod" finished-at="2024-02-06T12:38:30 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:13 CST" name="afterMethod" finished-at="2024-02-06T12:50:13 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,15 +305,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:30 CST" name="beforeMethod" finished-at="2024-02-06T12:38:36 CST" duration-ms="6076" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:13 CST" name="beforeMethod" finished-at="2024-02-06T12:50:13 CST" duration-ms="759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchWithBadTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:36 CST" name="verifyYahooSearchWithBadTermTest" finished-at="2024-02-06T12:38:41 CST" duration-ms="5207" status="PASS">
+        <test-method signature="verifyYahooSearchWithBadTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:13 CST" name="verifyYahooSearchWithBadTermTest" finished-at="2024-02-06T12:50:19 CST" duration-ms="5261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchWithBadTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:41 CST" name="afterMethod" finished-at="2024-02-06T12:38:41 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:19 CST" name="afterMethod" finished-at="2024-02-06T12:50:19 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,15 +324,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:41 CST" name="beforeMethod" finished-at="2024-02-06T12:38:43 CST" duration-ms="1585" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:19 CST" name="beforeMethod" finished-at="2024-02-06T12:50:19 CST" duration-ms="606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:43 CST" name="verifyYahooSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:38:48 CST" duration-ms="5196" status="PASS">
+        <test-method signature="verifyYahooSearchWithMisSpelledCorrectionTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:19 CST" name="verifyYahooSearchWithMisSpelledCorrectionTermTest" finished-at="2024-02-06T12:50:24 CST" duration-ms="5172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchWithMisSpelledCorrectionTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:48 CST" name="afterMethod" finished-at="2024-02-06T12:38:48 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:24 CST" name="beforeMethod" finished-at="2024-02-06T12:50:25 CST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:24 CST" name="afterMethod" finished-at="2024-02-06T12:50:24 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,15 +347,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:48 CST" name="beforeMethod" finished-at="2024-02-06T12:38:49 CST" duration-ms="1442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyYahooSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:49 CST" name="verifyYahooSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:38:55 CST" duration-ms="5617" status="PASS">
+        <test-method signature="verifyYahooSearchWithSpecialCharTermTest()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:25 CST" name="verifyYahooSearchWithSpecialCharTermTest" finished-at="2024-02-06T12:50:30 CST" duration-ms="5300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYahooSearchWithSpecialCharTermTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:55 CST" name="afterMethod" finished-at="2024-02-06T12:38:55 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:30 CST" name="tearDown" finished-at="2024-02-06T12:50:30 CST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:50:30 CST" name="afterMethod" finished-at="2024-02-06T12:50:30 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -362,10 +366,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seta.testcases.YahooSearchTests@647e447]" started-at="2024-02-06T12:38:55 CST" name="tearDown" finished-at="2024-02-06T12:38:55 CST" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.seta.testcases.YahooSearchTests -->
     </test> <!-- Search Engine Test Automation -->
   </suite> <!-- Search Engine Test Automation -->
