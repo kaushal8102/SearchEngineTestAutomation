@@ -21,15 +21,21 @@ public class ReadConfig {
 		}
 	}
 
-	// Get URL
-	public String getURL() {
-		String url = configProp.getProperty("URL");
+	// Get Google URL
+	public String getGoogleURL() {
+		String url = configProp.getProperty("GoogleURL");
 		return url;
 	}
 
-	// Get URL
+	// Get Yahoo URL
 	public String getYahooURL() {
 		String url = configProp.getProperty("YahooURL");
+		return url;
+	}
+
+	// Get Bing URL
+	public String getBingURL() {
+		String url = configProp.getProperty("BingURL");
 		return url;
 	}
 
@@ -73,5 +79,11 @@ public class ReadConfig {
 	public String getMisSpelledCharSearchKeyword() {
 		String misSpelledCharSearchKeyword = configProp.getProperty("MisSpelledSearchKeyword");
 		return misSpelledCharSearchKeyword;
+	}
+
+	// Get Google Top Three Search
+	public String getTopThreeSearchKeyword() {
+		String topThreeSearch = configProp.getProperty("TopThreeSearch");
+		return topThreeSearch;
 	}
 }

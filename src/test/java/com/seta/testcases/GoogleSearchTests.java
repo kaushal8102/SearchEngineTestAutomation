@@ -15,16 +15,17 @@ public class GoogleSearchTests extends BaseClass {
 
 	ReadConfig readPro = new ReadConfig();
 	GoogleSearchPage googleSearchPage;
-	String url = readPro.getURL();
+	String url = readPro.getGoogleURL();
 	String searchTerm = readPro.getSearchKeyword();
 	String badSearchTerm = readPro.getBadSearchKeyword();
 	String specialCharSearchTerm = readPro.getSpecialCharSearchKeyword();
 	String alphaNumericCharSearchTerm = readPro.getAlphaNumericCharSearchKeyword();
 	String misSpelledCharSearchTerm = readPro.getMisSpelledCharSearchKeyword();
+	String topThreeSearch = readPro.getTopThreeSearchKeyword();
 
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
-		ExtentManager.initialisation("Google_Search_Test");
+		ExtentManager.initialisation("Google Search Tests");
 		// Launch URL
 		Utility.launchApp(url);
 	}
@@ -33,6 +34,12 @@ public class GoogleSearchTests extends BaseClass {
 	public void verifyGoogleSearchFirstLinkTest() throws Exception {
 		googleSearchPage = new GoogleSearchPage();
 		googleSearchPage.verifySearchTerm(searchTerm);
+	}
+
+	@Test
+	public void verifyGoogleSearchTopThreeTermResultsTest() throws Exception {
+		googleSearchPage = new GoogleSearchPage();
+		googleSearchPage.verifyTopThreeSearchResults(topThreeSearch);
 	}
 
 	@Test

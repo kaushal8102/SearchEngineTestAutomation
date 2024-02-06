@@ -4,6 +4,8 @@
 	<test name="Search Engine Test Automation">
 		<classes>
 			<class name="com.seta.testcases.GoogleSearchTests"/>
+			<class name="com.seta.testcases.YahooSearchTests"/>
+			<class name="com.seta.testcases.BingSearchTests"/>
 		</classes>
 	</test>
 </suite>

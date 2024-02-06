@@ -7,26 +7,24 @@ import org.testng.Assert;
 
 import com.seta.actiondriver.Action;
 import com.seta.base.BaseClass;
-import com.seta.locators.Locators.googleSearchPage;
+import com.seta.locators.Locators.bingSearchPage;
 import com.seta.utility.Utility;
 
-public class GoogleSearchPage extends BaseClass implements googleSearchPage {
+public class BingSearchPage extends BaseClass implements bingSearchPage {
 
 	// Locators
-	@FindBy(xpath = txtGoogleSearchBox)
+	@FindBy(name = txtBingSearchBox)
 	WebElement txtSearch;
-	@FindBy(css = uiGoogleSearchResult)
+	@FindBy(xpath = uiGoogleSearchResult)
 	WebElement uiSearch;
-	@FindBy(xpath = uiSuggestionResult)
-	WebElement uiBadSearch;
-	@FindBy(css = uiSpecialCharSearchResult)
+	@FindBy(xpath = uiSpecialCharSearchResult)
 	WebElement specialCharSearchResult;
-	@FindBy(css = uiAlphaNumericCharSearchResult)
+	@FindBy(xpath = uiAlphaNumericCharSearchResult)
 	WebElement alphaNumericCharSearchResult;
 	@FindBy(xpath = uiMisSpelledSearchResult)
 	WebElement misSpelledSearchResult;
 
-	public GoogleSearchPage() {
+	public BingSearchPage() {
 		PageFactory.initElements(driver, this);
 	}
 
@@ -51,24 +49,15 @@ public class GoogleSearchPage extends BaseClass implements googleSearchPage {
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search engine's top three results.
+	// Verify bing search engine's top three results.
 	public void verifyTopThreeSearchResults(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
 		// Verify top three results
-		Action.verifyTopThreeSearchResults(googleSearchPage.uiTopThreeResults, searchKeyword);
+		Action.verifyTopThreeSearchResults(bingSearchPage.uiTopThreeResults, searchKeyword);
 	}
 
-	// Verify google search with bad search term.
-	public void verifyBadSearchTerm(String badSearchKeyword) throws Exception {
-		enterSearchTerm(badSearchKeyword);
-
-		Action.scrollToElement(driver, uiBadSearch);
-		Action.logResult(uiBadSearch.isDisplayed(), badSearchKeyword);
-		Assert.assertTrue(uiBadSearch.isDisplayed(), "The term '" + badSearchKeyword + "' is not displayed.");
-	}
-
-	// Verify google search with special character ($).
+	// Verify bing search with special character ($).
 	public void verifySpecialCharSearchTerm(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
@@ -80,7 +69,7 @@ public class GoogleSearchPage extends BaseClass implements googleSearchPage {
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search with alphanumeric search term.
+	// Verify bing search with alphanumeric search term.
 	public void verifyAlphaNumericCharSearchTerm(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
@@ -92,7 +81,7 @@ public class GoogleSearchPage extends BaseClass implements googleSearchPage {
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search with misspelled search term.
+	// Verify bing search with misspelled search term.
 	public void verifyMisSpelledSearchTermSuggestion(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 

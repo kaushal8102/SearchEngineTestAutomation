@@ -7,33 +7,32 @@ import org.testng.Assert;
 
 import com.seta.actiondriver.Action;
 import com.seta.base.BaseClass;
-import com.seta.locators.Locators.googleSearchPage;
+import com.seta.locators.Locators.yahooSearchPage;
 import com.seta.utility.Utility;
 
-public class GoogleSearchPage extends BaseClass implements googleSearchPage {
+public class YahooSearchPage extends BaseClass implements yahooSearchPage {
 
 	// Locators
-	@FindBy(xpath = txtGoogleSearchBox)
+	@FindBy(name = txtYahooSearchBox)
 	WebElement txtSearch;
-	@FindBy(css = uiGoogleSearchResult)
+	@FindBy(css = uiYahooSearchResult)
 	WebElement uiSearch;
 	@FindBy(xpath = uiSuggestionResult)
 	WebElement uiBadSearch;
-	@FindBy(css = uiSpecialCharSearchResult)
-	WebElement specialCharSearchResult;
 	@FindBy(css = uiAlphaNumericCharSearchResult)
 	WebElement alphaNumericCharSearchResult;
 	@FindBy(xpath = uiMisSpelledSearchResult)
 	WebElement misSpelledSearchResult;
 
-	public GoogleSearchPage() {
+	public YahooSearchPage() {
 		PageFactory.initElements(driver, this);
 	}
 
 	// Enter keywords and search.
-	public void enterSearchTerm(String searchKeyword) {
+	public void enterSearchTerm(String searchKeyword) throws InterruptedException {
 		Action.implicitWait(driver, 20);
 
+		Action.scrollToElement(driver, txtSearch);
 		Utility.ElementHighlight(driver, txtSearch);
 		Action.sendText(txtSearch, searchKeyword);
 		Action.pressENTERkey();
@@ -51,15 +50,15 @@ public class GoogleSearchPage extends BaseClass implements googleSearchPage {
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search engine's top three results.
+	// Verify yahoo search engine's top three results.
 	public void verifyTopThreeSearchResults(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
 		// Verify top three results
-		Action.verifyTopThreeSearchResults(googleSearchPage.uiTopThreeResults, searchKeyword);
+		Action.verifyTopThreeSearchResults(yahooSearchPage.uiTopThreeResults, searchKeyword);
 	}
 
-	// Verify google search with bad search term.
+	// Verify yahoo search with bad search term.
 	public void verifyBadSearchTerm(String badSearchKeyword) throws Exception {
 		enterSearchTerm(badSearchKeyword);
 
@@ -68,31 +67,31 @@ public class GoogleSearchPage extends BaseClass implements googleSearchPage {
 		Assert.assertTrue(uiBadSearch.isDisplayed(), "The term '" + badSearchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search with special character ($).
+	// Verify yahoo search with special character ($).
 	public void verifySpecialCharSearchTerm(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
-		Action.scrollToElement(driver, specialCharSearchResult);
-		String getTextFromUISearch = specialCharSearchResult.getText().toLowerCase();
+		Action.scrollToElement(driver, uiSearch);
+		String getTextFromUISearch = uiSearch.getText().toLowerCase();
 
 		Action.logReport(getTextFromUISearch, searchKeyword);
 		Assert.assertTrue(getTextFromUISearch.replace("é", "e").contains(searchKeyword.replace("$", "")),
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search with alphanumeric search term.
+	// Verify yahoo search with alphanumeric search term.
 	public void verifyAlphaNumericCharSearchTerm(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 
-		Action.scrollToElement(driver, alphaNumericCharSearchResult);
-		String getTextFromUISearch = alphaNumericCharSearchResult.getText().toLowerCase();
+		Action.scrollToElement(driver, uiSearch);
+		String getTextFromUISearch = uiSearch.getText().toLowerCase();
 
 		Action.logReport(getTextFromUISearch, searchKeyword);
 		Assert.assertTrue(getTextFromUISearch.contains(searchKeyword),
 				"The term '" + searchKeyword + "' is not displayed.");
 	}
 
-	// Verify google search with misspelled search term.
+	// Verify yahoo search with misspelled search term.
 	public void verifyMisSpelledSearchTermSuggestion(String searchKeyword) throws Exception {
 		enterSearchTerm(searchKeyword);
 

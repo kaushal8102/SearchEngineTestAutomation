@@ -4,14 +4,19 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
+import com.aventstack.extentreports.Status;
 import com.seta.base.BaseClass;
+import com.seta.utility.ExtentManager;
+import com.seta.utility.Utility;
 
 public class Action extends BaseClass {
 
@@ -216,5 +221,44 @@ public class Action extends BaseClass {
 		act.sendKeys(Keys.ENTER).build().perform();
 		Duration timeout = Duration.ofSeconds(30);
 		driver.manage().timeouts().pageLoadTimeout(timeout);
+	}
+
+	// Scroll to the specified element using JavaScript
+	public static void scrollToElement(WebDriver driver, WebElement element) throws InterruptedException {
+		Thread.sleep(2000);
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
+
+		// Highlight element
+		Utility.ElementHighlight(driver, element);
+	}
+
+	public static void logReport(String expectedSearch, String actualSearch) {
+		if (expectedSearch != null) {
+			ExtentManager.logStat(Status.PASS, "The term '" + actualSearch + "' displayed in the first search result.");
+		} else {
+			ExtentManager.logStat(Status.FAIL, "The term '" + actualSearch + "' is not displayed.");
+		}
+	}
+
+	public static void logResult(boolean expectedSearch, String actualSearch) {
+		if (expectedSearch == true) {
+			ExtentManager.logStat(Status.PASS, "The term '" + actualSearch + "' displayed in the first search result.");
+		} else {
+			ExtentManager.logStat(Status.FAIL, "The term '" + actualSearch + "' is not displayed.");
+		}
+	}
+
+	public static void verifyTopThreeSearchResults(String locator, String expectedSearch) throws Exception {
+		// Find all search result links
+		List<WebElement> searchTopResults = driver.findElements(By.xpath(locator));
+
+		// Iterate through the top three search results
+		int count = Math.min(searchTopResults.size(), 3);
+		for (int i = 0; i < count; i++) {
+			WebElement searchResult = searchTopResults.get(i);
+			String searchExpectedText = searchResult.getText();
+			Assert.assertTrue(searchExpectedText.toLowerCase().contains(expectedSearch));
+		}
 	}
 }

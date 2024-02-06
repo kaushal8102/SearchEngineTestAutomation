@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Search Engine Test Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Search Engine Test Automation(failed)">
     <classes>
       <class name="com.seta.testcases.GoogleSearchTests">
         <methods>
           <include name="afterSuite"/>
-          <include name="verifyGoogleSearchWithMisSpelledCharTerm"/>
           <include name="beforeMethod"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
           <include name="setup"/>
+          <include name="verifyGoogleSearchWithBadTermTest"/>
         </methods>
       </class> <!-- com.seta.testcases.GoogleSearchTests -->
+      <class name="com.seta.testcases.YahooSearchTests">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="verifyYahooSearchFirstLinkTest"/>
+          <include name="verifyYahooSearchWithSpecialCharTermTest"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="verifyYahooSearchWithBadTermTest"/>
+          <include name="beforeSuite"/>
+          <include name="verifyYahooSearchTopThreeTermResultsTest"/>
+          <include name="verifyYahooSearchWithMisSpelledCorrectionTermTest"/>
+          <include name="setup"/>
+          <include name="verifyYahooSearchWithAlphaNumericCharTermTest"/>
+        </methods>
+      </class> <!-- com.seta.testcases.YahooSearchTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Search Engine Test Automation(failed) -->
+</suite> <!-- Failed suite [Search Engine Test Automation] -->

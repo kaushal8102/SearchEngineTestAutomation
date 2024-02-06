@@ -5,18 +5,31 @@
     <classes>
       <class name="com.seta.testcases.GoogleSearchTests">
         <methods>
-          <include name="verifyGoogleSearchWithBadTerm"/>
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
-          <include name="verifyGoogleSearchWithAlphaNumericCharTerm"/>
           <include name="tearDown"/>
-          <include name="verifyGoogleSearchFirstLink"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
           <include name="setup"/>
-          <include name="verifyGoogleSearchWithSpecialCharTerm"/>
+          <include name="verifyGoogleSearchWithBadTermTest"/>
         </methods>
       </class> <!-- com.seta.testcases.GoogleSearchTests -->
+      <class name="com.seta.testcases.YahooSearchTests">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="verifyYahooSearchFirstLinkTest"/>
+          <include name="verifyYahooSearchWithSpecialCharTermTest"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="verifyYahooSearchWithBadTermTest"/>
+          <include name="beforeSuite"/>
+          <include name="verifyYahooSearchTopThreeTermResultsTest"/>
+          <include name="verifyYahooSearchWithMisSpelledCorrectionTermTest"/>
+          <include name="setup"/>
+          <include name="verifyYahooSearchWithAlphaNumericCharTermTest"/>
+        </methods>
+      </class> <!-- com.seta.testcases.YahooSearchTests -->
     </classes>
   </test> <!-- Search Engine Test Automation(failed) -->
 </suite> <!-- Failed suite [Search Engine Test Automation] -->
